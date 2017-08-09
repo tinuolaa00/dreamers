@@ -57,7 +57,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    width: 75%;
+    width: 200px;
 }
 
 h5 {
