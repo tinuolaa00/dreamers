@@ -14,6 +14,15 @@ article {
 </style>
 <article class="article">
 <h1 style="color:#36648b;font-family:palatino;font-size:30px"><center>About Us</center></h1>
+<table>
+
+<tr>
+
+<center><img src = "{% static "pictures\HS.jpg.jpg" %}" alt "dreamers" width = "400px" height="200px"></center>
+
+</tr>
+
+  <tr>
 <ul>
 <h2 style="font-family:courier; color:lavender" > Monika Romo</h2>
 
@@ -26,15 +35,20 @@ article {
 
   <button type="button" onclick='document.getElementById("demo").innerHTML = "I am learning Korean by myself because I have an interest in a kpop group called BTS. My name in Korean is 모니카 로모 and the groups name in Korean is 방탄소년단."'>Fun Fact</button>
 
-<h2 style="font-family:courier; color:lavender">Tinuola Adebukola</h2>
+  <tr>
+      <td><center><img src = "{% static "pictures\me.jpeg" %}" alt "dreamers" width = "400px" height="200px"></center>
+  </td>
+      <td><h2 style="font-family:courier; color:lavender">Tinuola Adebukola</h2>
 
 
 
-  <p id = "demo">I am was born in Nigeria and came to America as an immigrant at the age of 7
-  and was raised in Chicago, Illinois ever since. My intesrest in computer science was excited when i joined
-my school's Girls Who Code Program and from there I learned about the summer immersion internship. Our final project
-was to solve a problem we felt strongly about and use a piece of code to construct the solution. I'm proud of our outcome
-and plan on minoring in computer science and majoring in pre-medicine. I'm thankful to have had this opportunity.  </p>
+    <p id = "demo">I am was born in Nigeria and came to America as an immigrant at the age of 7
+    and was raised in Chicago, Illinois ever since. My intesrest in computer science was excited when i joined
+  my school's Girls Who Code Program and from there I learned about the summer immersion internship. Our final project
+  was to solve a problem we felt strongly about and use a piece of code to construct the solution. I'm proud of our outcome
+  and plan on minoring in computer science and majoring in pre-medicine. I'm thankful to have had this opportunity.  </p></td>
+      <td>Country</td>
+    </tr>
 
  <h2 style="font-family:courier; color:lavender">Elizabeth Loma</h2>
 
@@ -58,6 +72,8 @@ computer science.</p>
   in my junior year my counselor informed me about Girls Who Code Summer Program. This
   was the first time I actually learned about HTML and CSS.</p>
 </ul>
+</tr>
+</table>
 </article>
 
 {% endblock %}
