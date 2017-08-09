@@ -1,0 +1,76 @@
+body {
+  background-color: powderblue;}
+
+h1 {
+  color: lavender;
+  font-style: Garamond;}
+
+div.container {
+    width: 100%;
+
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: skyblue;
+    clear: left;
+    text-align: center;
+}
+
+.nav{background:#eee;
+}
+nav {
+    float: left;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 0;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    padding:0
+}
+nav ul a {
+    text-decoration: none;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid nav;
+    padding: 1em;
+    overflow: hidden;
+    powderblue;
+}
+
+input[type=text] {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 150%;
+}
+
+h5 {
+  font-size:300%
+}
+
+h1 {
+  font-size:100px
+}
+h2 {
+
+}
+
+li {
+  font-size:20px
+}

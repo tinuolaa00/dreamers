@@ -3,7 +3,11 @@ from django.utils import timezone
 from .models import Post
 
 def post_list(request):
-    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, 'blog/post_list.html', {'posts': posts})
+    posts = Post.objects.all()
+    return render(request, 'blog/home.html', {'posts': posts})
+
+def static_page(request, page_name):
+    return render(request, 'blog/' + page_name + '.html')
+
 
 # Create your views here.

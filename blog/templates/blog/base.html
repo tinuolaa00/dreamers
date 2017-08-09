@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> DREAMers Links & Resources  </title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static "citizen.css" %}">
+</head>
+ <header>
+    <div class="menu-wrap">
+              <h5> DREAMers </h5>
+
+              <img src="{% static 'pictures\giphy.gif' %}" alt="Monarch" style="width:100px; height:100px;">
+          <!--  </ul>-->
+
+        <!--</nav>-->
+
+
+
+  </div>
+  </header>
+<body>
+<body style="background-color:powderblue;">
+  <div class="flex-container">
+  <nav class="nav">
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+    </div>
+    <ul class="clearfix">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown"
+        <li><a href="/page/Home">Home</a></li>
+        <p> </p>
+        <h><li><a href="/page/links&resources">Links & Resources</a></li></h>
+        <p> </p>
+        <li><a href="/page/citizen">How to Become a U.S. Citizen</a></li>
+        <p> </p>
+        <li><a href="/page/helpful-info">Helpful Info </a></li>
+        <p> </p>
+        <li><a href="http://dreamers.createaforum.com"target="_blank"> Forum </a></li>
+    <p> </p>
+    <li><a href="/page/about-us"> About Us </a></li>
+  <p> </p>
+  <form id="frmSearch" class="search2" method="get" action="default.html" />
+<input class="search2" id="txtSearch" type="text" name="serach_bar" size="50" maxlength="255"
+value="" />
+  <script type="text/javascript">
+      document.getElementById('frmSearch').onsubmit = function() {
+          window.location = 'http://www.google.com/search?q=site:yoursitename.com ' + document.getElementById('txtSearch').value;
+          return false;
+      }
+  </script>
+<p> </p>
+<div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </div>
+</nav>
+  </nav>
+
+  {% block content %}
+  {% endblock %}
+
+  <footer>Copyright &copy; DREAMers </footer>
+  </div>
+
+
+</body>
+</html>

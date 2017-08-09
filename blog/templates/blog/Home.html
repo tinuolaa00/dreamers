@@ -1,0 +1,40 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+<style>
+.nav{background:#eee;
+height: 2000px;}
+</style>
+<article>
+
+<center><h2 style="color:navy;">Who are DREAMers?</h2></center>
+
+<p style="font-size:20px"><right>The word DREAMer is in itself an acronym because the first part of the word (DREAM) stands for Development, Relief,
+  and Education for Alien Minors. This comes from the DREAM Act which was first introduced to legislation in 2001 and
+  was meant to provide a pathway to citizenship for people who were brought over to the United States as children and
+  have grown up to be an American in every sense of the word <i>except</i> on paper.</right></p>
+
+<p style="font-size:20px"> Another legislation was introduced to during Obama's administration which was called DACA. This stood for Deferred
+Action for Childhood Arrivals and was proposed by Obama as an Executive order meaning presidents after him can rescind the
+act. The DACA act still does not lead to citizenship because it only allows for DREAMers to obtain a work visa. They can
+obtain a work visa by officially 'coming out' filling out an application and going through a background check.</p>
+
+<center><img src = "{% static "pictures\HS.jpg.jpg" %}" alt "dreamers" width = "400px" height="200px"></center>
+
+<h2 style="color:navy;"><center>What is Happening Now? (Trump Administration)</center></h2>
+
+<p style="font-size:20px"> President Trump has made statements concerning the DACA Act which happen to be conflicting views. He has stated that
+  he would get rid of DACA as soon as possible but people from his administration have also stated he has a "big heart"
+  for these things. To further address his views on DACA is to note that there have been four incidents involving
+  DREAMers since he has taken office. One of these incidents involved the accusation of gang acttivity against a DREAMer,
+having him detained and then released when finally proven false. On a seperate occasion another DREAMer was detained and
+deported in a short amount of time with no known cause. Due to the fact that the goverment has the information of
+countless DREAMers who have applied for DACA they have all the information they need to detain and deport those people.
+People from his administration including the presdient himself has thought of betraying that trust as described above.</p>
+
+<center><img src = "{% static "pictures\ACT.jpg" %}" alt "dreamers" width = "400px" height="300px"></center>
+
+
+
+</article>
+{% endblock %}
