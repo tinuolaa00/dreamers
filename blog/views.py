@@ -4,7 +4,7 @@ from .models import Post
 
 def post_list(request):
     posts = Post.objects.all()
-    return render(request, 'blog/home.html', {'posts': posts})
+    return render(request, 'blog/Home.html', {'posts': posts})
 
 def static_page(request, page_name):
     return render(request, 'blog/' + page_name + '.html')
