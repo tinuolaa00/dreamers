@@ -19,6 +19,7 @@ header, footer {
 
 .nav{background:#eee;
 }
+
 nav {
     float: left;
     overflow: hidden;
@@ -40,7 +41,6 @@ article {
     overflow: hidden;
     powderblue;
 }
-
 input[type=text] {
     width: 100px;
     box-sizing: border-box;
